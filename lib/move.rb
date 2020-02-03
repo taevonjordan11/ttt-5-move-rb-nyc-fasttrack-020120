@@ -11,6 +11,7 @@ def input_to_index(user_input)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def move(board, index, token)
   token = x
   board[index] = token
