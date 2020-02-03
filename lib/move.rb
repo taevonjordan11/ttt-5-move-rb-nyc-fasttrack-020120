@@ -16,6 +16,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts board
 
-def move(board, index, player)
-  board[index] = player
+def move(board, index, character = "X")
+  board[index] = character
+  return board
 end
