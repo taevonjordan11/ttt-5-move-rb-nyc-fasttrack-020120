@@ -12,4 +12,5 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, token)
   token = x
+  board[index] = token
 end
