@@ -12,3 +12,5 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts board
+
+def move(board, )
